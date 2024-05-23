@@ -358,11 +358,6 @@
     position: relative;
     margin-top: -8.5rem;
   }
-  
-  .section-hero .section-title {
-    margin-bottom: 5rem;
-  }
-
   .section-hero .section-body {
     padding: 10rem 4rem;
   }
@@ -372,7 +367,9 @@
     text-transform: uppercase;
   }
 
-
+  .section-hero .section-title {
+    margin-bottom: 5rem;
+  }
   
   .section-hero .section-inner {
     display: flex;
