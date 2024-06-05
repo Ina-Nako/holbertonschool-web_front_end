@@ -685,9 +685,7 @@
     padding: 0 0 .5rem;
   }
 
-input[type="text"],
-input[type="email"],
-textarea {
+  input[type="text"], input[type="email"], textarea {
     position: relative;
     width: 100%;
     padding: 1.2rem;
@@ -696,8 +694,9 @@ textarea {
     background-color: var(--color-white);
     box-shadow: none;
     outline: 0;
-}
-input[type="text"],
+  }
+
+  input[type="text"],
 input[type="email"] {
     padding-right: 3rem;
 }
@@ -711,3 +710,4 @@ textarea:focus {
     font-style: italic;
     font-size: var(--font-size-small);
 }
+
