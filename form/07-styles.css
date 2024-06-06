@@ -838,7 +838,7 @@ input:not(:placeholder-shown) ~ .form-field-icon::after {
     height: 1.5rem;
   }
 
-  .form-search inpu[type=search] {
+  .form-search input[type=search] {
     display: inline-block;
     color: var(--color-white);
     padding-right: 2rem;
