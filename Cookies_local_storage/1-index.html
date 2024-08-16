@@ -9,13 +9,14 @@
     </head>
     <body>
         <h1>Login to the website</h1>
-        <form>
+        <form id="login-form">
             <input type="text" id="firstname" name="firstname" placeholder="Firstname">
             <input type="text" id="email" name="email" placeholder="Email">
-            <button onclick="setCookies()">Log me in</button>
-          </form>
-          <h1 class="mt-3">Cookies</h1>
-          <button onclick="showCookies()">Show the cookies</button>
-          <script src="./src/index.js"></script>
+            <input type="submit" value="Submit">
+        </form>
+        <h1 class="mt-3">Cookies</h1>
+        <button id="showCookie">Show the cookies</button>
+        <div id="cookieContainer"></div>
+        <script src="./src/index_1.js"></script>
     </body>
 </html>
